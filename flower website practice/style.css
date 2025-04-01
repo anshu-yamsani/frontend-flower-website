@@ -1,0 +1,220 @@
+body{
+    height: 100vh;
+    font-family: "Rubik", sans-serif;
+}
+#header1{
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 300px;
+    height: 70px;
+    width: 100%;
+    background-color: whitesmoke;
+    box-shadow: 10px 10px 10px rgb(133, 125, 125);
+    border-radius: 10px
+}
+#logo{
+    font-size: 35px;
+    font-weight: bold;
+}
+#logos{
+    display: flex;
+    gap: 20px;
+    margin-left: -70px;
+}
+a{
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+}
+a:hover{
+    color: pink;
+}
+#body1{
+    display: flex;
+    align-items: center;
+    min-height: 100vh;
+    background-image: url(bg1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+#body2{
+    margin-left: 200px;
+    margin-top: 30px;
+}
+#navbar{
+    display: flex;
+    gap: 70px;
+}
+h1{
+    font-size: 70px;
+    margin-bottom: 5px;
+}
+h4{
+    font-size: 40px; 
+}
+h2{
+    font-size: 40px;
+    margin-top: 5px;
+    color: rgb(165, 28, 138);
+}
+h5{
+    margin-top: -15px;
+    font-size: 15px;
+}
+pre{
+    font-family: "Rubik", sans-serif;
+    margin-top: -30px;
+}
+#shopnow,#learnmore,#send{
+    padding: 10px 28px 10px 28px;
+    border-radius: 20px;
+    color: whitesmoke;
+    background-color: black;
+    cursor: pointer;
+}
+#shopnow:hover,#learnmore:hover,#send:hover{
+    background-color: pink;
+    border-color: pink;
+    color: black;
+}
+#abouthead{
+    height: 60px;
+    background-color: pink;
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-left: 150px;
+    font-size: 35px;
+    font-weight: bold;
+}
+#aboutbody{
+    display: flex;
+    gap: 30px;
+}
+#img1{
+    height: 350px;
+    width: 600px;
+    margin-left: 150px;
+}
+#content{
+    margin-top: -30px;
+}
+#thirdpart{
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 70px;
+    background-color: rgb(198, 196, 196);
+}
+#free{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+    width: 250px;
+    background-color: whitesmoke;
+}
+#fff{
+    margin-top: 18px;
+    margin-left: -10px;
+}
+#boxes{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+#box{
+    width: 300px;
+    height: 250px;
+    box-shadow: 5px -5px 10px  rgb(182, 178, 178);
+}
+#flowerimg{
+    height: 170px;
+    margin-left: 55px;
+}
+#cost{
+    padding-top: 10px;
+    margin-left: 20px;
+}
+#text,#text2{
+    text-align: center;
+}
+#rbox{
+    width: 350px;
+    height: 250px;
+    box-shadow: 5px -5px 10px rgb(207, 203, 203);
+    text-align: center;
+}
+#star{
+    margin-left: 15px;
+    padding-top: 15px;
+    display: flex;
+    color: pink;
+}
+i:hover{
+    color: pink;
+    cursor: pointer;
+}
+#profimg{
+    margin-left: 30px;
+    height: 55px;
+}
+#profile{
+    display: flex;
+    gap: 20px;
+    margin-top: -20px;
+}
+#john{
+    margin-top: 20px;
+}
+#reviewboxes{
+    display: flex;
+    gap: 30px;
+    margin-left: 180px;
+}
+#condiv{
+    display: flex;
+    gap: 30px;
+    margin-left: 350px;
+}
+#form{
+    box-shadow: 5px -5px 10px rgb(207, 203, 203);
+}
+input{
+    padding: 10px 200px 10px 10px;
+}
+#in{
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-top: 15px;
+}
+#imgp{
+    height: 320px;
+}
+#msg{
+    padding: 10px 200px 70px 10px;
+}
+#ends{
+    display: flex;
+    gap: 80px;
+    text-align: center;
+    margin-left: 250px;
+}
+#head{
+    font-weight: bolder;
+    font-size: 30px;
+}
+#creater{
+    font-size: 30px;
+    text-align: center;
+}
+span{
+    color: pink;
+}
